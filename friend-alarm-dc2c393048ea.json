@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "friend-alarm",
+  "private_key_id": "dc2c393048ea987cac1f2a23c582af98a8f34399",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvlH8pENGf7c8y\nAXQOw8wiAmD6D/RU7WW2aJupp0rTPlOIx4zaHu/hlRXUsiZokyPKf6hO4qSN47ti\nlOJUuRCkZ3i2zNPqmKUI35Oq4K4yii30iqgcnwSbX1frYKSU90QMUel4aqoa3uhP\nJqJXw1qeZqYVAt+CP9jur1bLTO6mW/HRrvtPembyonSrVy1TBYO4HBPY9Fmn21XA\ncq4rcVQQZxNSYv6EOX10J+RkGaPIT46fePolBIccmzyS9Vfq54ftrmty9msXJUAU\nfcgPZZer1nWhoqECpWnJX3VqkxBozoRIooJof6PRjNdmL9zkc41gsZATfgR6EdA1\n8PZA1hxZAgMBAAECggEADoAomlchwOAOhxY4pAmGn95rbOuJZcQvbMep53KCCv0w\nP/EfEFqSvCIoaecGpgdU4uH1IAK2zWMb9DHQmWepWLKU9R/odo0BwEBavTeOG21v\nCy2yYZ6+biiLJczW+tiK/at8KS5B+zMio3rQ2IexQbi/iaexltu4Ckpf1C133jRB\nSpbSin1GXbwAUeyWEdc/O6z8nttihjn6uiIfDnx6hoHYeiu99haPsRY1Fmn5Bh7Q\nig2RagixvWfNQtkYe36GSf7xFNXmQ02r+kL6je4vlxuNTUBHhpifcBCd9AnKPV3E\nMwsG6us6y6HRN/+ZpSAfo0xTrLqmsFJvvcRRbVvfgwKBgQD4AH7YP9qDajPsoqY6\nD0Uw7/6GEvd+fC7gPHuq0jivZfQBibrIAa2Xh7+lgcZN035+Ifs1R+1gRyomAjjR\n8fb3hEVoBnFEizuydI3NWowvFVUtYwbdv4+m18sBFkLrV+Mft4d47Pfdo1DDzePx\nbGUU1AfjjOWx1qeUUm9vwjaAMwKBgQC1PhYLxpTmHDhrhE8LOXj+nmNmGQrow3PY\neyaoIR/Prxc9xSWL0d0wpa2NcLB98TrKlxMK9E7/YfAxhKKKiEyjx3+ePZPtMC5b\nwJM2kPZgptDpnFld9K6CLxaYAh8VbT6oYJ1SLpfkgU7ib/vQYVc//B879D1lfOKI\ngHAKI9g1QwKBgApHGvqjSs7/a792ziTB1UA98fJkftVDGD46w3VE2QyL0RzvNEpt\np2AMRCj7w9gd17QqfFqs7G19BYYluW0Z9f40ARxah/8rNgIjSm0kP4MEA0+qNvKh\nqbZkYwlcftF6BvOdi4O7blpFFmfG9Jdgwp+mWd1YTXydRLyk3fFnvxJ5AoGASOYI\nCAR/r256YwR8po8fU4pxgIdiE+1JkzE1gzqPiQFr37SEPZDT3tVE0TcaRg3ZD9Nk\nHWvWunGyIriuh/n6mYWMlyE9dpGCk/UJQVFdR9LRBKWWbGwWJNa7x7hSuFOQeDkk\nDgIfphE8oWdZaZ89cMb/6SV77G4mz7CZX/q64/ECgYEApiLDtIPZgaQwmlWlTGk3\nd7NbqMBQL5cytknGSdUZaONKCjlvy/CuiEOXCyuo4n95evTpUOQjTArXYBbSRFj0\n5ymIeszwClCUegAPH7WA8grJ/NMDJQPi46upf5ljJo9xqqL/y73ilWX8UzmM54ky\nqIlMbClmym3uml7EWclzH7A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "attendancecheck@friend-alarm.iam.gserviceaccount.com",
+  "client_id": "100025109583707620317",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/attendancecheck%40friend-alarm.iam.gserviceaccount.com"
+}

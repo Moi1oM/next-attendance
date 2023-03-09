@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static './css/index.css' %}"
+    />
+    <title>Next Attendance</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NEXT11기 출석체크!</h1>
+      {% csrf_token %}
+      <form method="get" action="/spreadsheet">
+        내 이름 : <br />
+        <input type="text" name="username" /><br />
+        오늘의 TMI : <br />
+        <input type="text" name="tmi" />
+        오늘의 코드 : <br />
+        <input type="text" name="code" />
+        <button class="custom-btn btn-12">
+          <span>Click!</span><span>출석체크하기!</span>
+        </button>
+      </form>
+    </div>
+    <div class="modal"></div>
+  </body>
+</html>
