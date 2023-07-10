@@ -27,6 +27,15 @@ environ.Env.read_env(
     env_file=os.path.join(BASE_DIR, '.env')
 )
 
+import socket
+def get_ipaddress():
+    host_name = socket.gethostname()
+    ip_address = socket.gethostbyname(host_name)
+    return "http://"+ip_address
+
+CSRF_TRUSTED_ORIGINS = [get_ipaddress()]
+
+
 APPEND_SLASH=False
 
 # Quick-start development settings - unsuitable for production
