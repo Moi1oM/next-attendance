@@ -2,6 +2,9 @@ from uuid import uuid4
 import boto3
 from django.shortcuts import render
 from datetime import datetime
+
+from django.views.decorators.csrf import csrf_exempt
+
 from attend_check.models import User
 import os
 import smtplib
@@ -45,6 +48,7 @@ def sendEmail(email, time):
     smtp.quit()
 
 
+@csrf_exempt
 def spreadsheet(request):
     name = request.POST.get('username', None)
     tmi = request.POST.get('tmi', None)
