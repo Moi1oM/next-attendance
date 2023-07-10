@@ -33,7 +33,7 @@ def get_ipaddress():
     ip_address = socket.gethostbyname(host_name)
     return "http://"+ip_address
 
-CSRF_TRUSTED_ORIGINS = ["*",'https://*.cloudtype.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.cloudtype.app']
 
 
 APPEND_SLASH=False
