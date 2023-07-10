@@ -33,7 +33,7 @@ def get_ipaddress():
     ip_address = socket.gethostbyname(host_name)
     return "http://"+ip_address
 
-CSRF_TRUSTED_ORIGINS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["*",'https://*.cloudtype.app']
 
 
 APPEND_SLASH=False
@@ -47,7 +47,7 @@ SECRET_KEY = "django-insecure-l^!409%a(3^b9=i__og_r8u)fe%2rf%**7if)k$@7@-b68b$j9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*',"localhost", "127.0.0.1", ".cloudtype.app"]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
