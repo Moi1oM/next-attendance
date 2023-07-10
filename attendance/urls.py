@@ -20,5 +20,5 @@ from attend_check import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("",views.index),
-    path("spreadsheet/",views.spreadsheet),
+    path("spreadsheet",views.spreadsheet),
 ]

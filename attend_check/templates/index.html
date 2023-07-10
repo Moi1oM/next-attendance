@@ -14,15 +14,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>NEXT11기 출석체크!</h1>
+      <h1>알고리즘 스터디 문제풀이 인증!</h1>
       {% csrf_token %}
-      <form method="get" action="/spreadsheet">
+      <form method="post" action="/spreadsheet" enctype="multipart/form-data">
+          {% csrf_token %}
         내 이름 : <br />
         <input type="text" name="username" /><br />
-        오늘의 TMI : <br />
+        email : <br />
+        <input type="text" name="email" />
+        추가로 할 말 : <br />
         <input type="text" name="tmi" />
-        오늘의 코드 : <br />
-        <input type="text" name="code" />
+          <label for="imageUpload">Choose an image:</label><br />
+      <input
+        type="file"
+        id="imageUpload"
+        name="get_file"
+        accept="image/*"
+      /><br />
         <button class="btn-hover color-9">출석체크</button>
       </form>
     </div>
